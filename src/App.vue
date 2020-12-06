@@ -11,8 +11,8 @@
       </div>  
     </div>
     <div class="container">
-      <div class="row justify-content-center align-items-stretch mb-5">
-        <div class="col mt-5" v-for="(item, index) of equipo" :key="index">
+      <div class="row justify-content-center  mb-5">
+        <div class="col mt-5 d-flex" v-for="(item, index) of equipo" :key="index">
           <team-card :member="item"></team-card>
         </div>
       </div>
