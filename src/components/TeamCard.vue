@@ -2,7 +2,7 @@
     <div class="d-flex">
       <div class="card border-dark text-dark">
         <div class="d-flex justify-content-center p-2">
-          <img class="img-fluid" v-bind:src="member.imagen" alt="Imagen integrante equipo" />
+          <img class="img-fluid" v-bind:src="member.image" alt="Imagen integrante equipo" />
         </div>
         <div class="card-body">
           <h5 class="card-title">{{member.nombre}}</h5>
