@@ -1,6 +1,20 @@
 <template>
   <div id="app">
-  <div id="app">
+
+
+          <div class="container mt-2">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small>Lo ultimo en noticias</small>
+            <h2>en desarrollo digital</h2>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <section-api></section-api>
+      </div>
+
 
     <div class="container mt-5">
       <div class="row">
@@ -20,7 +34,6 @@
 
     <footer-page></footer-page>
   </div>
-  </div>
 </template>
 
 <script>
@@ -31,9 +44,10 @@ import image2 from "../public/img/moisesH.jpg";
 import image3 from "../public/img/danielC.jpg";
 import image4 from "../public/img/danielL.jpg";
 import FooterPage from './components/FooterPage.vue';
+import SectionApi from './components/SectionApi.vue';
 
 export default {
-  components: { TeamCard, FooterPage },
+  components: { TeamCard, FooterPage, SectionApi },
   name: 'App',
     data() {
     return {
